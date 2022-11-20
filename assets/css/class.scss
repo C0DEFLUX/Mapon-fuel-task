@@ -1,0 +1,65 @@
+*, *::after, *::before {box-sizing: border-box;}
+html {font-size: 62.5%;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none;}
+ul {list-style: none;}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+.start {
+    justify-content: start;
+}
+.end {
+    justify-content: end;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.h-v {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.w-v {
+    width: 100%;
+}
+
+.gap50 {
+    gap: calc(100% / 2);
+}
+
+.gap33 {
+    gap: calc(100% / 3);
+}
+
+.gap25 {
+    gap: calc(100% / 4);
+}
+
+.gap20 {
+    gap: calc(100% / 5);
+}
+
+.gap10 {
+    gap: calc(100% / 10);
+}
